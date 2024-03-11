@@ -1,0 +1,19 @@
+mod.wizards.newContentElement.wizardItems {
+    // add the content element to the tab "plugins"
+    plugins {
+        elements {
+            cars_show {
+                iconIdentifier = ext-maps2-wiszard-icon
+                title = list cars
+                description = Add this plugin to show a list of cars
+                tt_content_defValues {
+                    CType = list
+                    list_type = Cars_show
+                    header = list cars
+                }
+            }
+        }
+
+        show := addToList(cars_show)
+    }
+}

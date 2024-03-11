@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2024-02-24T00:00:000" product-name="cars">
+		<header/>
+		<body>
+			<trans-unit id="tx_cars_car.manufacturer">
+				<source>Manufacturer</source>
+				<target>Hersteller</target>
+			</trans-unit>
+			<trans-unit id="tx_cars_car.model">
+				<source>Model</source>
+				<target>Model</target>
+			</trans-unit>
+			<trans-unit id="tx_cars_car.ps">
+				<source>PS</source>
+				<target>PS</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

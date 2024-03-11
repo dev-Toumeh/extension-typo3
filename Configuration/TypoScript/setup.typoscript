@@ -1,0 +1,19 @@
+plugin.tx_cars {
+    view {
+        templateRootPaths {
+            0 = EXT:cars/Resources/Private/Templates/
+        }
+
+        partialRootPaths {
+            0 = EXT:cars/Resources/Private/Partials/
+        }
+
+        layoutRootPaths {
+            0 = EXT:cars/Resources/Private/Layouts/
+        }
+    }
+
+    settings {
+        singleViewPageUid = 4
+    }
+}
